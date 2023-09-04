@@ -1,0 +1,22 @@
+.topics {
+  color: white;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+
+.topics-description {
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.play {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.game-owner {
+  font-size: 14px;
+  margin-top: 8rem;
+  text-decoration-line: underline;
+}

@@ -1,0 +1,27 @@
+.separator::after,
+.separator::before {
+  content: "";
+  flex: 1;
+}
+
+.black::after,
+.black::before{
+  border-top: 1px solid black;
+}
+
+.white::after,
+.white::before {
+  border-top: 1px solid white;
+}
+
+.topic {
+  display: flex;
+  align-items: center;
+  margin: 45px 0 15px;
+}
+
+.topic-name {
+  margin-bottom: 0;
+  padding: 0 10px;
+  font-weight: bold;
+}

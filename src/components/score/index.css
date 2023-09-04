@@ -1,0 +1,77 @@
+.result {
+  margin-top: .5rem;
+}
+
+.score-container {
+  color: white;
+  font-size: 14px;
+}
+
+.score-description {
+  margin-top: 1rem;
+}
+
+.play-again {
+  margin: 1rem 0 1rem;
+}
+
+.meme {
+  margin-top: .5rem;
+}
+
+.more-info {
+  margin-bottom: 0;
+}
+
+.merepresenta-button {
+  margin: .5rem 0 3rem;
+  border-radius: 30px!important;
+}
+
+.social-networks-logos>* {
+  margin: .5rem 0 .5rem;
+}
+
+.twitter {
+  margin-left: 3rem;
+}
+
+.score-footer {
+  padding-bottom: 3rem;
+}
+
+.loading-logo {
+  transform: scale(3);
+}
+
+.loading-background {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+.share-text{
+  font-size: 16px;
+  font-weight: 700;
+}
+.iconos{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.call-to{
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.vof {
+  height: 200px;
+}
+
+@keyframes fade {
+  0% {opacity: 0.9;}
+  20% {opacity: 1;}
+  33% {opacity: 1;}
+  53% {opacity: 1;}
+  100% {opacity: 1;}
+}

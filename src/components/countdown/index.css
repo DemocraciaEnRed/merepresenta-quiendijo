@@ -1,0 +1,10 @@
+.countdown-number {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.ready {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10rem;
+}

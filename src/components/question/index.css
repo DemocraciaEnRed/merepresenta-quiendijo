@@ -1,0 +1,22 @@
+.row.option {
+  margin-top: 15px;
+}
+
+.row.option:first-child {
+  margin-top: 35px;
+}
+
+.option-button {
+  margin: 0 auto;
+  padding: .575rem .75rem;
+}
+
+.option-text {
+  font-family: General Sans Medium;
+  font-size: smaller;
+}
+
+.question {
+  font-size: 20px;
+  margin-top: 30px;
+}

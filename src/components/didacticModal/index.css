@@ -1,0 +1,51 @@
+.modal-container {
+  margin-top: 4rem;
+}
+
+.modal-content {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+  -webkit-border: 0px !important;
+  -moz-border: 0px !important;
+  border: 0px !important;
+}
+
+.didactic-modal p:not(.topic-name) {
+  color: white;
+}
+
+.description {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.didactic-modal {
+  background-color: black;
+  width: 100%;
+}
+
+.continue {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding: 2rem 0 2rem;
+}
+
+.continue-button {
+  width: fit-content;
+  cursor: pointer;
+}
+
+.continue-icon {
+  transform: scale(0.7);
+  margin-top: -3px;
+  margin-left: 5px;
+}
+
+.answer-icon {
+  margin: 0 auto;
+  display: block;
+  overflow: visible;
+}
