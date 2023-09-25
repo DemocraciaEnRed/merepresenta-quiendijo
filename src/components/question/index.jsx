@@ -8,7 +8,7 @@ const MobileSizeContainer = ({ children }) => <div className="col-xl-4 col-lg-6 
 </div>;
 
 const Option = ({ onOptionSelected, option }) =>
-  <Button className="btn-dark option-button col-md-12" onClick={() => onOptionSelected(option)}>
+  <Button className="btn-light option-button col-md-12" onClick={() => onOptionSelected(option)}>
     <span className="option-text">{_.toUpper(option)}</span>
   </Button>
 

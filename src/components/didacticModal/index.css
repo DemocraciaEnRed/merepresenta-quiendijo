@@ -12,7 +12,7 @@
 }
 
 .didactic-modal p:not(.topic-name) {
-  color: white;
+  color: #000;
 }
 
 .description {
@@ -22,13 +22,12 @@
 }
 
 .didactic-modal {
-  background-color: black;
   width: 100%;
 }
 
 .continue {
   text-align: center;
-  color: white;
+  color: #000;
   font-size: 14px;
   padding: 2rem 0 2rem;
 }

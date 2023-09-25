@@ -13,7 +13,7 @@ const Logo = ({ topic, color }) => <div>
         render={color => <IconSvg fill={color} className="icon"/>}
         topic={topic}
         />
-      <LogoSvg fill="black"/>
+      <LogoSvg fill="white"/>
       </div>
     :
     <div>

@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
+import Background from '../../images/scoreBackground.svg';
 import Logo from "../logo";
 import "./index.css";
+import WithBackground from '../withBackground';
 
 const Countdown = ({ setIsLoading }) => {
   const [loadingNumber, setLoadingNumber] = useState(5);
 
   const onCountDown = () => {
     setLoadingNumber(loadingNumber-1)
-    if (loadingNumber == 1)
+    if (loadingNumber === 1)
       setIsLoading(false);
   };
 
@@ -20,9 +22,9 @@ const Countdown = ({ setIsLoading }) => {
   };
   
 
-  return <div>
-    <Logo />
-    <p className="ready">Empezamos en...</p>
+  return <WithBackground background={Background}>
+    <Logo color="white"/>
+    <p className="ready">¿Listo?</p>
     <p
       key={loadingNumber}
       className="centered countdown-number animate__animated animate__fadeOut"
@@ -31,7 +33,7 @@ const Countdown = ({ setIsLoading }) => {
     >
       {loadingNumber}
     </p>
-  </div>;
+    </WithBackground>
 }
 
 export default Countdown;

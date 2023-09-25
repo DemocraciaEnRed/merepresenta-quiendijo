@@ -1,12 +1,9 @@
 import React, { useState } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Spinner } from "react-bootstrap";
 import _ from "lodash";
 import WithBackground from "../withBackground";
 import WithFooter from "../withFooter";
-import Background from '../../images/scoreBackground.svg';
-import FirstLoading from '../../images/firstLoadingBackground.svg';
-import SecondLoading from '../../images/secondLoadingBackground.svg';
-import ThirdLoading from '../../images/thirdLoadingBackground.svg';
+import roundBackground from '../../images/roundBackground.svg'
 import Logo from "../logo";
 import { ReactComponent as IconSvg } from '../../images/meRepresentaIcon.svg';
 import Progress from '../progress';
@@ -16,6 +13,9 @@ import good from '../../images/scoreMemes/good.png';
 import veryGood from '../../images/scoreMemes/veryGood.png';
 import excellent from '../../images/scoreMemes/excellent.png';
 import vof from '../../images/vof.png';
+import trivia from '../../images/trivia.png';
+import espectrometro from '../../images/espectrometro.png';
+
 // import { ReactComponent as InstagramLogo } from "../../images/instagramLogo.svg";
 // import { ReactComponent as TwitterLogo } from "../../images/twitterLogo.svg";
 import { ReactComponent as TwitterIcono } from "../../images/iconoX.svg";
@@ -26,31 +26,31 @@ import "./index.css";
 
 const resultsByScore = [
   {
-    max: 4,
+    max: 2,
     meme: bad,
     color: "FB2D11",
-    description: "Argentina perdió el primer partido del Mundial y salió campeón. Vos podés repetir la historia.",
+    description: "Al igual que Argentina superó obstáculos en el Mundial, tú puedes superar cualquier falta de información sobre las propuestas políticas. Infórmate sobre las discusiones de los políticos para las Elecciones Generales 2023 en #MeRepresenta y sé parte activa del proceso.",
     secondayDescription: "Pasá por #MeRepresenta para saber todo sobre las Elecciones 2023"
   },
   {
-    max: 6,
+    max: 3,
     meme: good,
     color: "EEFF26",
-    description: "Aprobás raspando.",
+    description: "Puede que tus conocimientos sobre las propuestas de campaña sean básicos, pero es crucial estar informado a la hora de votar. Accede a #MeRepresenta y entérate de todo sobre las Elecciones Generales 2023 y las discusiones políticas actuales.",
     secondayDescription: "Pero como votar, tenés que votar, mejor entrá a #MeRepresenta para saber todo sobre las Elecciones 2023"
   },
   {
-    max: 8,
+    max: 5,
     meme: veryGood,
     color: "F7A334",
-    description: "Sin duda, tenés altas chances de ganar en la discusión familiar del domingo.",
+    description: "Sin duda, estás preparado para destacarte en cualquier conversación sobre las propuestas de los políticos en estas Elecciones Generales 2023. ¡Visita #MeRepresenta para seguir enriqueciendo tus conocimientos!",
     secondayDescription: "Para saber más sobre las Elecciones 2023, entrá a #MeRepresenta"
   },
   {
-    max: 10,
+    max: 6,
     meme: excellent,
     color: "32F991",
-    description: "Mis respetos: tenés un gran conocimiento de la política argentina 👏.",
+    description: "Eres un verdadero experto en las propuestas de campaña de los políticos. 👏 Si quieres mantenerte al tanto de todo lo que están discutiendo para las Elecciones Generales 2023, visita #MeRepresenta y sé un ciudadano informado.",
     secondayDescription: "Para saber aún más sobre las Elecciones 2023, entrá a #MeRepresenta"
   }
 ];
@@ -61,24 +61,29 @@ const ProgressWithResultColor = ({ score }) => {
   const result = resultByScore(score);
   const color = `#${result.color}`;
 
-  return <Progress total={10} current={score} color={color} />
+  return <Progress total={6} current={score} color={color} />
 };
 
-const backgrounds = [ FirstLoading, SecondLoading, ThirdLoading, FirstLoading ];
 const FinalLoading = ({ setDoneLoading }) => {
   const [backgroundNumber, setBackgroundNumber] = useState(0);
-  const background = _.get(backgrounds, backgroundNumber);
   const moveBackground = () => {
     setBackgroundNumber(backgroundNumber+1);
-    if (backgroundNumber == 3)
-      setDoneLoading(true);
+    if (backgroundNumber === 3) setDoneLoading(true);
   }
   setTimeout(moveBackground, 1000)
 
-  return <WithBackground key={backgroundNumber} background={background} className="loading-background">
-    <Logo color="white"/>
+  return <WithBackground  background={roundBackground} className="loading-background">
+    <Logo color="black"/>
     <div className="centered">
-      <IconSvg fill="white" className="loading-logo"/>
+      {/* <Spinner animation="border" role="status">
+        <IconSvg fill="black" className="loading-logo"/>
+
+      </Spinner> */}
+      <Spinner animation="grow">
+      <IconSvg fill="black" className="loading-logo"/>
+
+      </Spinner>
+
     </div>
   </WithBackground>
 };
@@ -87,7 +92,7 @@ const Score = ({ score, total, setPlayAgain }) => {
   const [doneLoading, setDoneLoading] = useState(false);
   const { meme, description, secondayDescription } = resultByScore(score);
 
-  const textShare = `¿A que no superás mi puntaje ${score}/10 en esta trivia? \nPoné a prueba tus conocimientos sobre política argentina y veamos quién sabe más 😉 \nEntrá a MR que tenés toda la data sobre la elecciones.\n\nEntra a https://trivia.merepresenta.info/ para Jugar`
+  const textShare = `Te desafío a alcanzar mi puntaje de ${score}/7. \nPoné a prueba tu conocimiento sobre las propuestas electorales de estas elecciones. \nEntra a ¿Quien dijo? de #MeRepresenta y mostrá quién la tiene más clara.\n\nEntra a https://quiendijo.merepresenta.info/ para Jugar`
 
     const shareOnWhatsApp = () => {
       const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(textShare)}`;
@@ -108,17 +113,17 @@ const Score = ({ score, total, setPlayAgain }) => {
   return <div className="full-height">
     {
       doneLoading?
-        <WithBackground background={Background}>
-          <WithFooter color="white">
+        <WithBackground background={roundBackground}>
+          <WithFooter color="black">
             <div className="score-container animate__animated animate__fadeIn">
-              <Logo color="white"/>
-              <Separator color="white" />
+              <Logo color="black"/>
+              <Separator color="black" />
               <div className="result">
                 <ProgressWithResultColor score={score} total={total} />
               </div>
               <img className="meme" src={meme} alt="meme resultado" />
-              <p className="score-description">{_.toUpper(description)}</p>
-              { secondayDescription && <p>{_.toUpper(secondayDescription)}</p> }
+              <p className="score-description px-5">{_.toUpper(description)}</p>
+              {/* { secondayDescription && <p>{_.toUpper(secondayDescription)}</p> } */}
 
               <p className="share-text">Compartí tu resultado en Redes sociales</p> 
               <div>
@@ -138,9 +143,21 @@ const Score = ({ score, total, setPlayAgain }) => {
               <div>
                 <Button className="col-md-3 col-sm-4 col-10 play-again" variant="outline-light" onClick={setPlayAgain}>VOLVER A JUGAR</Button>
                 <p className="call-to">Te invitamos a Jugar a:</p> 
-                <a href="https://verdaderofalso.merepresenta.info/" >
-                  <img className="vof" src={vof} alt="Jugar a verdadero o falso" />
-                </a>
+                <div className="d-flex justify-content-center">
+                  <a href="https://verdaderofalso.merepresenta.info/" >
+                    <img className="vof" src={vof} alt="Jugar a verdadero o falso" />
+                  </a>
+                  <a href="https://trivia.merepresenta.info/" >
+                    <img className="vof" src={trivia} alt="Jugar a trivia" />
+                  </a>
+                  <a href="https://espectrometro.merepresenta.info/" >
+                    <img className="vof" src={espectrometro} alt="Jugar a espectrometro" />
+                  </a>
+                  {/* <a href="https://verdaderofalso.merepresenta.info/" >
+                    <img className="vof" src={compas} alt="Jugar a compas politico" />
+                  </a> */}
+
+                </div>
               </div>
               <p>ó</p>
               <p className="more-info">Encontrá más info sobre las elecciones en: </p>

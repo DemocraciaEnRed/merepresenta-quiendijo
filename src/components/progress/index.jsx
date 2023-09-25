@@ -3,7 +3,7 @@ import WithTopicColor from "../withTopicColor";
 import "./index.css";
 
 const CurrentNumber = ({ color, current }) => <span style={{ "color": color }}>{current}</span>;
-const OfTotal = ({ total }) => <span> de {total}</span>;
+const OfTotal = ({ total, color }) => <span style={{ "color": color }}> de {total}</span>;
 
 const Progress = ({ current, total, topic, color }) => {
   const isFinalOne = !topic;
@@ -11,12 +11,12 @@ const Progress = ({ current, total, topic, color }) => {
     {
       !isFinalOne?
         <WithTopicColor
-          render={color => <CurrentNumber color={color} current={current}/>}
+          render={el => <CurrentNumber color={color} current={current}/>}
           topic={topic}
         />
       : <CurrentNumber color={color} current={current} />
     }
-    <OfTotal total={total} />
+    <OfTotal total={total} color={color} />
   </div>;
 };
 

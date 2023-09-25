@@ -6,12 +6,12 @@
 
 .black::after,
 .black::before{
-  border-top: 1px solid black;
+  border-top: 1px solid #fff;
 }
 
 .white::after,
 .white::before {
-  border-top: 1px solid white;
+  border-top: 1px solid #000;
 }
 
 .topic {
@@ -21,6 +21,7 @@
 }
 
 .topic-name {
+  color: #fff;
   margin-bottom: 0;
   padding: 0 10px;
   font-weight: bold;

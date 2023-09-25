@@ -27,7 +27,7 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
     setAnswerIsOk(isCorrect);
   };
 
-  const FooterContent = <Progress current={currentQuestionNumber+1} total={questionCount} topic={topic}/>;
+  const FooterContent = <Progress current={currentQuestionNumber+1} total={questionCount} topic={topic} color="#fff"/>;
 
   return <WithFooter content={FooterContent}>
     <Logo topic={topic} />

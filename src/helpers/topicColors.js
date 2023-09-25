@@ -1,9 +1,11 @@
 export default {
-  "Política Nacional": "4BD6F7",
-  "Legislativas": "F7A334",
-  "Frases Memorables": "FB2D11",
-  "Latinoamérica": "32F991",
-  "Ejecutivo": "E9F92A", 
-  "Elecciones 2023": "FC47C9"
+  //"Empleo": "FC47C9",
+  "Economía": "FB2D11",
+  "Seguridad": "F7A334",
+  "Educación": "E9F92A",
+  "Ambiente": "32F991",
+  "Salud": "4BD6F7", 
+  "Democracia": "9F47FC",
+  //"Vivienda y transporte": "FC47C9"
 };
 
