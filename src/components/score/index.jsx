@@ -8,10 +8,10 @@ import Logo from "../logo";
 import { ReactComponent as IconSvg } from '../../images/meRepresentaIcon.svg';
 import Progress from '../progress';
 import Separator from '../separator';
-import bad from '../../images/scoreMemes/bad.png';
-import good from '../../images/scoreMemes/good.png';
-import veryGood from '../../images/scoreMemes/veryGood.png';
-import excellent from '../../images/scoreMemes/excellent.png';
+import bad from '../../images/scoreMemes/bad.jpg';
+import good from '../../images/scoreMemes/good.gif';
+import veryGood from '../../images/scoreMemes/veryGood.gif';
+import excellent from '../../images/scoreMemes/excellent.webp';
 import vof from '../../images/vof.png';
 import trivia from '../../images/trivia.png';
 import espectrometro from '../../images/espectrometro.png';
@@ -92,7 +92,7 @@ const Score = ({ score, total, setPlayAgain }) => {
   const [doneLoading, setDoneLoading] = useState(false);
   const { meme, description, secondayDescription } = resultByScore(score);
 
-  const textShare = `Te desafío a alcanzar mi puntaje de ${score}/7. \nPoné a prueba tu conocimiento sobre las propuestas electorales de estas elecciones. \nEntra a ¿Quien dijo? de #MeRepresenta y mostrá quién la tiene más clara.\n\nEntra a https://quiendijo.merepresenta.info/ para Jugar`
+  const textShare = `Te desafío a alcanzar mi puntaje de ${score}/6. \nPoné a prueba tu conocimiento sobre las propuestas electorales de estas elecciones. \nEntra a ¿Quien dijo? de #MeRepresenta y mostrá quién la tiene más clara.\n\nEntra a https://quiendijo.merepresenta.info/ para Jugar`
 
     const shareOnWhatsApp = () => {
       const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(textShare)}`;
@@ -121,7 +121,7 @@ const Score = ({ score, total, setPlayAgain }) => {
               <div className="result">
                 <ProgressWithResultColor score={score} total={total} />
               </div>
-              <img className="meme" src={meme} alt="meme resultado" />
+              <img className="meme" src={meme} height="200" alt="meme resultado" />
               <p className="score-description px-5">{_.toUpper(description)}</p>
               {/* { secondayDescription && <p>{_.toUpper(secondayDescription)}</p> } */}
 
@@ -143,17 +143,17 @@ const Score = ({ score, total, setPlayAgain }) => {
               <div>
                 <Button className="col-md-3 col-sm-4 col-10 play-again" variant="outline-light" onClick={setPlayAgain}>VOLVER A JUGAR</Button>
                 <p className="call-to">Te invitamos a Jugar a:</p> 
-                <div className="d-flex justify-content-center">
+                <div className="games">
                   <a href="https://verdaderofalso.merepresenta.info/" >
                     <img className="vof" src={vof} alt="Jugar a verdadero o falso" />
                   </a>
                   <a href="https://trivia.merepresenta.info/" >
                     <img className="vof" src={trivia} alt="Jugar a trivia" />
                   </a>
-                  <a href="https://espectrometro.merepresenta.info/" >
+                  <a href="https://dequelado.merepresenta.info/" >
                     <img className="vof" src={espectrometro} alt="Jugar a espectrometro" />
                   </a>
-                  {/* <a href="https://verdaderofalso.merepresenta.info/" >
+                  {/* <a href="https://compas.merepresenta.info/" >
                     <img className="vof" src={compas} alt="Jugar a compas politico" />
                   </a> */}
 

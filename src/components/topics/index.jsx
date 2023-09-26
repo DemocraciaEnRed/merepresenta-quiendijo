@@ -12,7 +12,7 @@ const Topics = ({ follow }) => <WithBackground background={Background}>
   <div className="animate__animated animate__fadeIn">
     <Logo color="black"/>
     <div className="topics col-10">
-      <p className="topics-description">Te vamos a mostrar 10 frases y
+      <p className="topics-description">Te vamos a mostrar 6 frases y
 vas a tener que adivinar que candidato/a a la presidencia lo dijo.Los mismas serán entorno a las temáticas de las propuestas:</p>
       {_(topicColors).keys()
         .map((value, i) =>
