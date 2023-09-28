@@ -141,7 +141,7 @@ const Score = ({ score, total, setPlayAgain }) => {
                 </a>                                 */}
               </div>
               <div>
-                <Button className="col-md-3 col-sm-4 col-10 play-again" variant="outline-light" onClick={setPlayAgain}>VOLVER A JUGAR</Button>
+                <Button className="col-md-3 col-sm-4 col-10 play-again" variant="dark" onClick={setPlayAgain}>VOLVER A JUGAR</Button>
                 <p className="call-to">Te invitamos a Jugar a:</p> 
                 <div className="games">
                   <a href="https://verdaderofalso.merepresenta.info/" >
