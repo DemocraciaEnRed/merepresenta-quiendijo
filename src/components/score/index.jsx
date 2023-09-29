@@ -15,7 +15,7 @@ import excellent from '../../images/scoreMemes/excellent.webp';
 import vof from '../../images/vof.png';
 import trivia from '../../images/trivia.png';
 import espectrometro from '../../images/espectrometro.png';
-
+import compas from '../../images/compas.png'
 // import { ReactComponent as InstagramLogo } from "../../images/instagramLogo.svg";
 // import { ReactComponent as TwitterLogo } from "../../images/twitterLogo.svg";
 import { ReactComponent as TwitterIcono } from "../../images/iconoX.svg";
@@ -153,9 +153,9 @@ const Score = ({ score, total, setPlayAgain }) => {
                   <a href="https://dequelado.merepresenta.info/" >
                     <img className="vof" src={espectrometro} alt="Jugar a espectrometro" />
                   </a>
-                  {/* <a href="https://compas.merepresenta.info/" >
+                  <a href="https://compaspolitico.merepresenta.info/" >
                     <img className="vof" src={compas} alt="Jugar a compas politico" />
-                  </a> */}
+                  </a>
 
                 </div>
               </div>
