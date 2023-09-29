@@ -92,7 +92,7 @@ const Score = ({ score, total, setPlayAgain }) => {
   const [doneLoading, setDoneLoading] = useState(false);
   const { meme, description, secondayDescription } = resultByScore(score);
 
-  const textShare = `Te desafío a alcanzar mi puntaje de ${score}/6. \nPoné a prueba tu conocimiento sobre las propuestas electorales de estas elecciones. \nEntra a ¿Quien dijo? de #MeRepresenta y mostrá quién la tiene más clara.\n\nEntra a https://quiendijo.merepresenta.info/ para Jugar`
+  const textShare = `Te desafío a alcanzar mi puntaje de ${score}/6. \nPoné a prueba tu conocimiento sobre las propuestas electorales de estas elecciones. \nEntra a ¿Quién dijo? de #MeRepresenta y mostrá quién la tiene más clara.\n\nEntra a https://quiendijo.merepresenta.info/ para Jugar`
 
     const shareOnWhatsApp = () => {
       const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(textShare)}`;
