@@ -1,7 +1,7 @@
 [
     {
         "topic": "Salud",
-        "text": "... diseñar e implementar un Sistema Nacional Integrado de Cuidados?",
+        "text": "¿Quién propone diseñar e implementar un Sistema Nacional Integrado de Cuidados?",
         "answer": "Juan Schiaretti",
         "description": "En su programa, Schiaretti propone implementar un Sistema Nacional Integrado de Cuidados con una atención amable y centrada en las personas, con perspectiva de género, derechos para minorías y diversidades sexuales.",
         "incorrectAnswers": [
@@ -11,7 +11,7 @@
     },
     {
         "topic": "Salud",
-        "text": "... mejorar la inversión y digitalizar la salud?",
+        "text": "¿Quién propone  mejorar la inversión y digitalizar la salud?",
         "answer": "Juan Schiaretti",
         "description": "En su programa, Schiaretti propone mejorar sostenidamente la inversión en el personal y la infraestructura de salud, avanzando de forma profunda en digitalización e informatización de historias clínicas, teleconsultas y telemedicina.",
         "incorrectAnswers": [
@@ -21,7 +21,7 @@
     },
     {
         "topic": "Salud",
-        "text": "... defender el derecho a la vida desde la concepción?",
+        "text": "¿Quién propone defender el derecho a la vida desde la concepción?",
         "answer": "Javier Milei",
         "description": "En su programa, Milei propone derogar la Ley del Aborto por considerarlo un \"homicidio agravado por el vínculo\"",
         "incorrectAnswers": [
@@ -31,7 +31,7 @@
     },
     {
         "topic": "Salud",
-        "text": "... arancelar todas las prestaciones de salud?",
+        "text": "¿Quién propone arancelar todas las prestaciones de salud?",
         "answer": "Javier Milei",
         "description": "En su programa, Milei propone que el sistema de salud se autogestione, arancelando todas las prestaciones e integrando progresivamente el servicio de salud pública con la salud privada.\r\n",
         "incorrectAnswers": [
@@ -41,7 +41,7 @@
     },
     {
         "topic": "Salud",
-        "text": "... unificar y centralizar el sistema de salud? \r\n",
+        "text": "¿Quién propone unificar y centralizar el sistema de salud? \r\n",
         "answer": "Myriam Bregman",
         "description": "En su programa, Bregman propone reunir la totalidad de los recursos del sistema público y privado bajo control de los trabajadores y profesionales implementando comités de emergencia central y locales. ",
         "incorrectAnswers": [
@@ -51,7 +51,7 @@
     },
     {
         "topic": "Salud",
-        "text": "... garantizar el acceso a la salud?",
+        "text": "¿Quién propone garantizar el acceso a la salud?",
         "answer": "Myriam Bregman",
         "description": "En su programa, Bregman propone garantizar el acceso a la salud y la mejora del sistema usando la plata hoy destinada al pago de la deuda con el FMI.",
         "incorrectAnswers": [
@@ -61,7 +61,7 @@
     },
     {
         "topic": "Salud",
-        "text": "... permitir a los trabajadores optar por la obra social de su preferencia sin ningún tipo de limitación?",
+        "text": "¿Quién propone permitir a los trabajadores optar por la obra social de su preferencia sin ningún tipo de limitación?",
         "answer": "Patricia Bullrich",
         "description": "En su programa, Bullrich propone la libertad de elección a los trabajadores para optar por la obra social de su preferencia sin ningún tipo de limitación.\r\n ",
         "incorrectAnswers": [
@@ -71,7 +71,7 @@
     },
     {
         "topic": "Salud",
-        "text": "... establecer un plan integral de salud materno infantil?",
+        "text": "¿Quién propone establecer un plan integral de salud materno infantil?",
         "answer": "Patricia Bullrich",
         "description": "En su programa, Bullrich propone un plan integral de salud materno infantil que incluye el cuidado integral de la salud durante el embarazo y primera infancia y un sistema de maternidades públicas seguras.\r\n ",
         "incorrectAnswers": [
@@ -81,7 +81,7 @@
     },
     {
         "topic": "Salud",
-        "text": "... tener un sistema de salud público de calidad? \r\n",
+        "text": "¿Quién propone tener un sistema de salud público de calidad? \r\n",
         "answer": "Sergio Massa",
         "description": "En su programa, Massa propone fortalecer el equipamiento del sistema de salud pública, considerando que no todos los argentinos tienen acceso a una obra social o a una prepaga.",
         "incorrectAnswers": [
@@ -91,7 +91,7 @@
     },
     {
         "topic": "Salud",
-        "text": "... el acceso a medicamentos gratuitos para jubilados?",
+        "text": "¿Quién propone el acceso a medicamentos gratuitos para jubilados?",
         "answer": "Sergio Massa",
         "description": "En su programa, Massa propone profundizar el sistema actual que asegura la provisión gratuita de medicamentos para jubilados.",
         "incorrectAnswers": [
@@ -101,7 +101,7 @@
     },
     {
         "topic": "Democracia",
-        "text": "... un plan de retiro voluntario para empleados públicos? \r\n",
+        "text": "¿Quién propone un plan de retiro voluntario para empleados públicos? \r\n",
         "answer": "Javier Milei",
         "description": "En su programa, Milei propone un plan de retiro voluntario para empleados públicos, con el fin de achicar el personal del Estado.\r\n ",
         "incorrectAnswers": [
@@ -111,7 +111,7 @@
     },
     {
         "topic": "Democracia",
-        "text": "... reducir la cantidad de ministerios a 8?",
+        "text": "¿Quién propone reducir la cantidad de ministerios a 8?",
         "answer": "Javier Milei",
         "description": "En su programa, Milei propone que haya sólo 8 Ministerios a nivel nacional. Para ello, propone Fusionar los Ministerios de Desarrollo Social, Salud y Educación en un \"Minisiterio de Capital Humano\" que elabore politicas públicas transversales. ",
         "incorrectAnswers": [
@@ -121,7 +121,7 @@
     },
     {
         "topic": "Democracia",
-        "text": "... que los funcionarios ganen lo mismo que una maestra o un obrero especializado?",
+        "text": "¿Quién propone que los funcionarios ganen lo mismo que una maestra o un obrero especializado?",
         "answer": "Myriam Bregman",
         "description": "En su programa, Bregman propone rechazar los \"dietazos\" de legisladores y jueces y hacer que ganen el salario de una maestra o un obrero especializado.  ",
         "incorrectAnswers": [
@@ -131,7 +131,7 @@
     },
     {
         "topic": "Democracia",
-        "text": "... que los funcionarios ganen lo mismo que una maestra o un obrero especializado?",
+        "text": "¿Quién propone que los funcionarios ganen lo mismo que una maestra o un obrero especializado?",
         "answer": "Myriam Bregman",
         "description": "En su programa, Bregman propone rechazar los \"dietazos\" de legisladores y jueces y hacer que ganen el salario de una maestra o un obrero especializado.  ",
         "incorrectAnswers": [
@@ -141,7 +141,7 @@
     },
     {
         "topic": "Democracia",
-        "text": "... reducir la cantidad de ministerios a la mitad?",
+        "text": "¿Quién propone reducir la cantidad de ministerios a la mitad?",
         "answer": "Patricia Bullrich",
         "description": "En su programa, Bullrich propone reducir la cantidad de ministerios a la mitad, conservando solo los indispensables para dar los servicios que la población necesita.\r\n ",
         "incorrectAnswers": [
@@ -151,7 +151,7 @@
     },
     {
         "topic": "Democracia",
-        "text": "... despolitizar el sistema judicial impulsando una reforma del Consejo de la Magistratura?",
+        "text": "¿Quién propone despolitizar el sistema judicial impulsando una reforma del Consejo de la Magistratura?",
         "answer": "Patricia Bullrich",
         "description": "En su programa, Bullrich propone despolitizar el sistema judicial impulsando una reforma del Consejo de la Magistratura, órgano encargado de la selección y remoción de los jueces.\r\n ",
         "incorrectAnswers": [
@@ -161,7 +161,7 @@
     },
     {
         "topic": "Democracia",
-        "text": "... fortalecer la institucionalidad republicana?",
+        "text": "¿Quién propone fortalecer la institucionalidad republicana?",
         "answer": "Juan Schiaretti",
         "description": "En su programa, Schiaretti propone fortalecer la institucionalidad republicana con reglas claras, sencillas y estables para quienes producen, investigan o invierten. ",
         "incorrectAnswers": [
@@ -171,7 +171,7 @@
     },
     {
         "topic": "Democracia",
-        "text": "... establecer un federalismo estricto?",
+        "text": "¿Quién propone establecer un federalismo estricto?",
         "answer": "Juan Schiaretti",
         "description": "En su programa, Schiaretti propone definir las políticas de transporte, energía, conectividad y logística con criterios de federalismo estrictos.",
         "incorrectAnswers": [
@@ -181,7 +181,7 @@
     },
     {
         "topic": "Democracia",
-        "text": "... reconstruir el pacto democrático?",
+        "text": "¿Quién propone reconstruir el pacto democrático?",
         "answer": "Sergio Massa",
         "description": "En su programa, Massa propone repensar el Estado y garantizar la división de poderes para reconstruir el pacto democrático.",
         "incorrectAnswers": [
@@ -191,7 +191,7 @@
     },
     {
         "topic": "Democracia",
-        "text": "... reconstruir el pacto democrático?",
+        "text": "¿Quién propone reconstruir el pacto democrático?",
         "answer": "Sergio Massa",
         "description": "En su programa, Massa propone repensar el Estado y garantizar la división de poderes para reconstruir el pacto democrático.",
         "incorrectAnswers": [
@@ -201,7 +201,7 @@
     },
     {
         "topic": "Ambiente",
-        "text": "... promover una agricultura con buenas prácticas?",
+        "text": "¿Quién propone promover una agricultura con buenas prácticas?",
         "answer": "Javier Milei",
         "description": "En su programa, Milei propone buenas prácticas para la agricultura que contemplen la sustentabilidad del suelo y la preservación del ambiente. ",
         "incorrectAnswers": [
@@ -211,7 +211,7 @@
     },
     {
         "topic": "Ambiente",
-        "text": " ... cuidar nuestro patrimonio marítimo?",
+        "text": "¿Quién propone cuidar nuestro patrimonio marítimo?",
         "answer": "Javier Milei",
         "description": "En su programa, Milei propone cuidar nuestro patrimonio marítimo de la explotación indiscriminada e ilegal.",
         "incorrectAnswers": [
@@ -221,7 +221,7 @@
     },
     {
         "topic": "Ambiente",
-        "text": "... eliminar la megaminería? ",
+        "text": "¿Quién propone eliminar la megaminería? ",
         "answer": "Myriam Bregman",
         "description": "En su programa, Bregman propone rechazar el fracking y la megaminería, anular el acuerdo YPF-Chevron.y expropiar, sin indemnización y con reparación por los daños causados.",
         "incorrectAnswers": [
@@ -231,7 +231,7 @@
     },
     {
         "topic": "Ambiente",
-        "text": "... prohibir el uso indiscriminado de agrotóxicos?",
+        "text": "¿Quién propone prohibir el uso indiscriminado de agrotóxicos?",
         "answer": "Myriam Bregman",
         "description": "En su programa, Bregman propone prohibir las fumigaciones aéreas y el uso indiscriminado de agrotóxicos.",
         "incorrectAnswers": [
@@ -241,7 +241,7 @@
     },
     {
         "topic": "Ambiente",
-        "text": "... eliminar el plástico de un solo uso? ",
+        "text": "¿Quién propone eliminar el plástico de un solo uso? ",
         "answer": "Juan Schiaretti",
         "description": "En su programa, Schiaretti propone la eliminación de plásticos de un solo uso, de manera inmediata.",
         "incorrectAnswers": [
@@ -251,7 +251,7 @@
     },
     {
         "topic": "Ambiente",
-        "text": "... reducir las emisiones de GEI (Gases de Efecto Invernadero)?\r\n",
+        "text": "¿Quién propone reducir las emisiones de GEI (Gases de Efecto Invernadero)?\r\n",
         "answer": "Juan Schiaretti",
         "description": "En su programa, Schiaretti propone aumentar el corte de combustibles tradicionales con bioetanol y con biodiesel para reducir las emisiones.",
         "incorrectAnswers": [
@@ -261,7 +261,7 @@
     },
     {
         "topic": "Ambiente",
-        "text": "... incrementar la producción de energías renovables y minerales para la transición energética?",
+        "text": "¿Quién propone incrementar la producción de energías renovables y minerales para la transición energética?",
         "answer": "Patricia Bullrich",
         "description": "En su programa, Bullrich propone Incrementar la producción de energías renovables y minerales para la transición energética ampliando la infraestructura.",
         "incorrectAnswers": [
@@ -271,7 +271,7 @@
     },
     {
         "topic": "Ambiente",
-        "text": "... ordenar y ampliar la infraestructura de saneamiento?",
+        "text": "¿Quién propone ordenar y ampliar la infraestructura de saneamiento?",
         "answer": "Patricia Bullrich",
         "description": "En su programa, Bullrich propone ordenar y ampliar la infraestructura de saneamiento para solucionar el grave riesgo sanitario para la población que ocasionan basurales a cielo abierto y la falta de cloacas.",
         "incorrectAnswers": [
@@ -281,7 +281,7 @@
     },
     {
         "topic": "Ambiente",
-        "text": "... una transformación de la industria petroquímica?",
+        "text": "¿Quién propone una transformación de la industria petroquímica?",
         "answer": "Sergio Massa",
         "description": "En su programa, Massa propone una transformación de la industria petroquímica.",
         "incorrectAnswers": [
@@ -291,7 +291,7 @@
     },
     {
         "topic": "Ambiente",
-        "text": "\r\n... acompañar el desarrollo de la minería sostenible.?",
+        "text": "\r\n¿Quién propone acompañar el desarrollo de la minería sostenible.?",
         "answer": "Sergio Massa",
         "description": "En su programa, Massa propone el desarrollo de la minería, como puntal del desarrollo regional y nacional, preservando el cuidado del ambiente.",
         "incorrectAnswers": [
@@ -301,7 +301,7 @@
     },
     {
         "topic": "Economía",
-        "text": "... eliminar el Banco Central?",
+        "text": "¿Quién propone eliminar el Banco Central?",
         "answer": "Javier Milei",
         "description": "En su programa, Milei propone liquidar el Banco Central, liberar los cepos cambiarios y unificar el tipo de cambio.",
         "incorrectAnswers": [
@@ -311,7 +311,7 @@
     },
     {
         "topic": "Economía",
-        "text": "... privatizar las empresas públicas?",
+        "text": "¿Quién propone privatizar las empresas públicas?",
         "answer": "Javier Milei",
         "description": "En su programa, Milei propone privatizar empresas públicas como Aerolíneas, YPF y AySA, entre otras. ",
         "incorrectAnswers": [
@@ -321,7 +321,7 @@
     },
     {
         "topic": "Economía",
-        "text": "... romper con el FMI?",
+        "text": "¿Quién propone romper con el FMI?",
         "answer": "Myriam Bregman",
         "description": "En su programa, Bregman propone romper con el FMI, no pagar la deuda y usar esa plata para aumentar salarios y garantizar el acceso a salud, educación y vivienda. ",
         "incorrectAnswers": [
@@ -331,7 +331,7 @@
     },
     {
         "topic": "Economía",
-        "text": "... eliminar el IVA de la canasta familiar?",
+        "text": "¿Quién propone eliminar el IVA de la canasta familiar?",
         "answer": "Myriam Bregman",
         "description": "En su programa, Bregman propone eliminar el Impuesto al Valor Agregado (IVA, el 21% del precio) a los productos de la canasta básica.  ",
         "incorrectAnswers": [
@@ -341,7 +341,7 @@
     },
     {
         "topic": "Economía",
-        "text": "... tener una moneda nacional sana y fuerte?",
+        "text": "¿Quién propone tener una moneda nacional sana y fuerte?",
         "answer": "Juan Schiaretti",
         "description": "En su programa, Schiaretti propone generar una moneda nacional sana y fuerte como condición estructural para la estabilidad económica.",
         "incorrectAnswers": [
@@ -351,7 +351,7 @@
     },
     {
         "topic": "Economía",
-        "text": "... una nueva poítica tributaria para PyMEs?",
+        "text": "¿Quién propone una nueva poítica tributaria para PyMEs?",
         "answer": "Juan Schiaretti",
         "description": "En su programa, Schiaretti propone una nueva política tributaria para las PyMEs con un sistema de créditos a las producción e incentivos para reinvertir las utilidades en bienes de capital.",
         "incorrectAnswers": [
@@ -361,7 +361,7 @@
     },
     {
         "topic": "Economía",
-        "text": "... establecer un nuevo régimen cambiario y consolidar un bimonetarismo?",
+        "text": "¿Quién propone establecer un nuevo régimen cambiario y consolidar un bimonetarismo?",
         "answer": "Patricia Bullrich",
         "description": "En su programa, Bullrich propone establecer un nuevo régimen cambiario sin cepos, que permita exportar e importar y consolidar un bimonetarismo para que convivan el peso y el dólar.",
         "incorrectAnswers": [
@@ -371,7 +371,7 @@
     },
     {
         "topic": "Economía",
-        "text": "... eliminar impuestos, retenciones y liberar cupos de exportación?",
+        "text": "¿Quién propone eliminar impuestos, retenciones y liberar cupos de exportación?",
         "answer": "Patricia Bullrich",
         "description": "En su programa, Bullrich propone eliminar impuestos, retenciones y liberar cupos de exportación eliminando todos los impuestos de escasa o nula recaudación que dificultan las exportaciones.",
         "incorrectAnswers": [
@@ -381,7 +381,7 @@
     },
     {
         "topic": "Economía",
-        "text": "... recuperar el poder adquisitivos de jubilados y trabajadores?",
+        "text": "¿Quién propone recuperar el poder adquisitivos de jubilados y trabajadores?",
         "answer": "Sergio Massa",
         "description": "En su programa, Massa propone recuperar el poder adquisitivo de los salarios y jubilaciones, defendiendo los derechos vigentes y promoviendo nuevos derechos laborales.",
         "incorrectAnswers": [
@@ -391,7 +391,7 @@
     },
     {
         "topic": "Economía",
-        "text": "... un salto histórico para las exportaciones? ",
+        "text": "¿Quién propone un salto histórico para las exportaciones? ",
         "answer": "Sergio Massa",
         "description": "En su programa, Massa propone un salto histórico en el valor de las exportaciones para 2024-2028.",
         "incorrectAnswers": [
@@ -401,7 +401,7 @@
     },
     {
         "topic": "Educación",
-        "text": "... eliminar la Educación Sexual Integral?",
+        "text": "¿Quién propone eliminar la Educación Sexual Integral?",
         "answer": "Javier Milei",
         "description": "En su programa, Milei propone eliminar la obligatoriedad de la Educación Sexual Integral (ESI) en todos los niveles de enseñanza\r\n\r\n ",
         "incorrectAnswers": [
@@ -411,7 +411,7 @@
     },
     {
         "topic": "Educación",
-        "text": "... generar competencia entre las instituciones educativas?",
+        "text": "¿Quién propone generar competencia entre las instituciones educativas?",
         "answer": "Javier Milei",
         "description": "En su programa, Milei propone hacer competir a las escualas, de todos los niveles de educación, para que el mercado las diferencie : en lo curricular, en la orientación y/o en la infraestructura.",
         "incorrectAnswers": [
@@ -421,7 +421,7 @@
     },
     {
         "topic": "Educación",
-        "text": "... usar la plata destinada al pago de la deuda con el FMI para garantizar el acceso a la educación?\r\n",
+        "text": "¿Quién propone usar la plata destinada al pago de la deuda con el FMI para garantizar el acceso a la educación?\r\n",
         "answer": "Myriam Bregman",
         "description": "En su programa, Bregman propone garantizar el acceso a la educación, usando para este fin la plata hoy destinada al pago de la deuda con el FMI\r\n \r\n ",
         "incorrectAnswers": [
@@ -431,7 +431,7 @@
     },
     {
         "topic": "Educación",
-        "text": "... usar la plata destinada al pago de la deuda con el FMI para garantizar el acceso a la educación?\r\n",
+        "text": "¿Quién propone  usar la plata destinada al pago de la deuda con el FMI para garantizar el acceso a la educación?\r\n",
         "answer": "Myriam Bregman",
         "description": "En su programa, Bregman propone garantizar el acceso a la educación, usando para este fin la plata hoy destinada al pago de la deuda con el FMI",
         "incorrectAnswers": [
@@ -441,7 +441,7 @@
     },
     {
         "topic": "Educación",
-        "text": "... ampliar la jornada extendida en las primarias?",
+        "text": "¿Quién propone ampliar la jornada extendida en las primarias?",
         "answer": "Juan Schiaretti",
         "description": "En su programa, Schiaretti propone la ampliación de la jornada extendida, en nivel primario, incluyendo idiomas y robótica en todas las escuelas.\r\n\r\n ",
         "incorrectAnswers": [
@@ -451,7 +451,7 @@
     },
     {
         "topic": "Educación",
-        "text": "... crear un “cuarto nivel educativo”? ",
+        "text": "¿Quién propone crear un “cuarto nivel educativo”? ",
         "answer": "Juan Schiaretti",
         "description": "En su programa, Schiaretti propone crear un nuevo nivel educativo, asociado al mundo del trabajo y la formación laboral, destinado a jóvenes y adultos.",
         "incorrectAnswers": [
@@ -461,7 +461,7 @@
     },
     {
         "topic": "Educación",
-        "text": "... declarar a la educación servicio esencial?",
+        "text": "¿Quién propone declarar a la educación servicio esencial?",
         "answer": "Patricia Bullrich",
         "description": "En su programa, Bullrich propone declarar la educación servicio esencial para evitar paros docentes y tener 190 días de clases. ",
         "incorrectAnswers": [
@@ -471,7 +471,7 @@
     },
     {
         "topic": "Educación",
-        "text": "... fortalecer el sistema científico?",
+        "text": "¿Quién propone fortalecer el sistema científico?",
         "answer": "Patricia Bullrich",
         "description": "En su programa, Bullrich propone fortalecer el sistema científico jerarquizándolo y ordenándolo, con herramientas efectivas de evaluación y financiación, que premien la investigación de calidad. ",
         "incorrectAnswers": [
@@ -481,7 +481,7 @@
     },
     {
         "topic": "Educación",
-        "text": "... impulsar una revolución educativa?\r\n",
+        "text": "¿Quién propone impulsar una revolución educativa?\r\n",
         "answer": "Sergio Massa",
         "description": "En su programa, Massa propone impulsar una revolución educativa.",
         "incorrectAnswers": [
@@ -491,7 +491,7 @@
     },
     {
         "topic": "Educación",
-        "text": "... impulsar una revolución educativa?\r\n",
+        "text": "¿Quién propone impulsar una revolución educativa?\r\n",
         "answer": "Sergio Massa",
         "description": "En su programa, Massa propone impulsar una revolución educativa.",
         "incorrectAnswers": [
@@ -501,7 +501,7 @@
     },
     {
         "topic": "Seguridad",
-        "text": "... construir cárceles de gestión público-privada? ",
+        "text": "¿Quién propone construir cárceles de gestión público-privada? ",
         "answer": "Javier Milei",
         "description": "En su programa, Milei propone construir establecimientos penitenciarios con gestión público-privada y eliminar los salarios de los reclusos.",
         "incorrectAnswers": [
@@ -511,7 +511,7 @@
     },
     {
         "topic": "Seguridad",
-        "text": "... disminuir la dificultad del accionar policial?",
+        "text": "¿Quién propone disminuir la dificultad del accionar policial?",
         "answer": "Javier Milei",
         "description": "En su programa, Milei propone disminuir la dificultad del accionar policial con la modificación de las leyes y la presentación de nuevos proyectos de ley.",
         "incorrectAnswers": [
@@ -521,7 +521,7 @@
     },
     {
         "topic": "Seguridad",
-        "text": "... no tiene propuestas específicas para el rubro \"seguridad\"?",
+        "text": "¿Quién no tiene propuestas específicas para el rubro \"seguridad\"?",
         "answer": "Myriam Bregman",
         "description": "En su programa, Bregman no incluye propouestas específicas para el rubro \"seguridad\".",
         "incorrectAnswers": [
@@ -531,7 +531,7 @@
     },
     {
         "topic": "Seguridad",
-        "text": "... no tiene propuestas específicas para el rubro \"seguridad\"?",
+        "text": "¿Quién no tiene propuestas específicas para el rubro \"seguridad\"?",
         "answer": "Myriam Bregman",
         "description": "En su programa, Bregman no incluye propouestas específicas para el rubro \"seguridad\".",
         "incorrectAnswers": [
@@ -541,7 +541,7 @@
     },
     {
         "topic": "Seguridad",
-        "text": "... el desarme de la ciudadanía?",
+        "text": "¿Quién propone el desarme de la ciudadanía?",
         "answer": "Juan Schiaretti",
         "description": "En su programa, Schiaretti propone promover el desarme de la ciudadanía y evitar la circulación de armas ilegales.",
         "incorrectAnswers": [
@@ -551,7 +551,7 @@
     },
     {
         "topic": "Seguridad",
-        "text": "... reformular el trabajo de inteligencia y análisis del delito?\r\n",
+        "text": "¿Quién propone reformular el trabajo de inteligencia y análisis del delito?\r\n",
         "answer": "Juan Schiaretti",
         "description": "En su programa, Schiaretti propone reformular el trabajo de inteligencia y análisis del delito, incorporando tecnología y mejorando la coordinación entre las fuerzas de seguridad, la justica y agencias del Estado.",
         "incorrectAnswers": [
@@ -561,7 +561,7 @@
     },
     {
         "topic": "Seguridad",
-        "text": "... garantizar el orden público terminando con los piquetes?",
+        "text": "¿Quién propone garantizar el orden público terminando con los piquetes?",
         "answer": "Patricia Bullrich",
         "description": "En su programa, Bullrich propone garantizar el orden público y terminar con los bloqueos, las ocupaciones y los cortes ilegales definiendo un marco legal para la realización ordenada de manifestaciones.",
         "incorrectAnswers": [
@@ -571,7 +571,7 @@
     },
     {
         "topic": "Seguridad",
-        "text": "... fortalecer los mecanismos de control de fronteras?",
+        "text": "¿Quién propone fortalecer los mecanismos de control de fronteras?",
         "answer": "Patricia Bullrich",
         "description": "En su programa, Bullrich propone proteger a nuestro país del delito trasnacional con un fuerte uso de tecnología para el control del espacio aéreo y el fortalecimiento del control de vías navegables.",
         "incorrectAnswers": [
@@ -581,7 +581,7 @@
     },
     {
         "topic": "Seguridad",
-        "text": "... una política de seguridad pública ciudadana y democrática?\r\n",
+        "text": "¿Quién propone una política de seguridad pública ciudadana y democrática?\r\n",
         "answer": "Sergio Massa",
         "description": "En su programa, Massa propone avanzar en la conformación de fuerzas de seguridad que garanticen una política de seguridad ciudadana y democrática.",
         "incorrectAnswers": [
@@ -591,7 +591,7 @@
     },
     {
         "topic": "Seguridad",
-        "text": "... regular el ecosistema mediático digital?\r\n",
+        "text": "¿Quién propone regular el ecosistema mediático digital?\r\n",
         "answer": "Sergio Massa",
         "description": "En su programa, Massa propone debatir la regulación del ecosistema mediático digital.\r\n",
         "incorrectAnswers": [
